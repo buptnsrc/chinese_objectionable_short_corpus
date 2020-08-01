@@ -9,7 +9,7 @@
 
 | 名称 |  数据量 | 说明 |
 | --- |  --- | --- | 
-| legal_app_corpus.text |  10000  | 正常应用的描述合集 |
+| legal_app_corpus.text |  5300  | 正常应用的描述合集 |
 | objectionable_app_corpus.text |  1200  | 不良应用的描述合集 |
 
 语料库的每条信息以 json 格式提供，每一行代表一条有效的 json 格式数据，json 字段说明：
@@ -36,7 +36,7 @@ Classification：
 
 | name |  count | description |
 | --- |  --- | --- | 
-| legal_app_corpus |  5000  | normal application description |
+| legal_app_corpus |  5300  | normal application description |
 | objectionable_app_corpus |  1200  | objectionable semantic information |
 
 Each piece of information in the corpus is provided in json format, each line represents a valid json format data, json field description: 
